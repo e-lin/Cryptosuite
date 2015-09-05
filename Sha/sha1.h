@@ -46,6 +46,6 @@ class Sha1Class : public Print
     uint8_t innerHash[HASH_LENGTH];
     
 };
-extern Sha1Class Sha1;
+// extern Sha1Class Sha1;
 
 #endif

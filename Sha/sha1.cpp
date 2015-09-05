@@ -149,4 +149,4 @@ uint8_t* Sha1Class::resultHmac(void) {
   for (i=0; i<HASH_LENGTH; i++) write(innerHash[i]);
   return result();
 }
-Sha1Class Sha1;
+// Sha1Class Sha1;
